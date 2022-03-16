@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <title> Bright Safe Computers </title>
+
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="assets/plugins/image-hover/imagehover.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+        <!--###################### Clock Starts Here ############################-->
+
+    <script>
+        function display_ct6() {
+        var x = new Date()
+        var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
+        hours = x.getHours( ) % 12;
+        hours = hours ? hours : 12;
+        var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
+        x1 = x1 + " - " +  hours + ":" +  x.getMinutes() + ":" +  x.getSeconds()+ "" + ampm;
+        document.getElementById('ct6').innerHTML = x1;
+        display_c6();
+         }
+         function display_c6(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct6()',refresh)
+        }
+        display_c6()
+        </script>
+
+    <!--###################### Navigation Starts Here ############################-->
+
+    <div class="header-container">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 left-item">
+                        <ul>
+                            <li><i class="fas fa-envelope-square"></i> <a href="mailto:brightsafe@outlook.com" style="color: wheat"> brightsafe@outlook.com</a></li>
+                            <li class="d-none d-sm-block"><i class="fas fa-phone-square"></i> <a href="tel:0562729468 / 0555844775" style="color: wheat">0562729468 / 0555844775</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block right-item">
+                        <ul>
+                            <li><a><i class="fab fa-github"></i></a></li>
+                            <li><a><i class="fab fa-linkedin-in"></i></a></li>
+                            <li> <a><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li> <a><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <nav id="menu-jk" class="container-fluid  no-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 logo">
+                        <h3>BRIGHT SAFE COMPUTERS</h3>
+                        <a data-toggle="collapse" data-target="#nav-head" href="#nav-head"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                        <h5><i><b><span id='ct6' style="background-color: wheat"></span></b></i></h5>
+                    </div>
+                    <div id="nav-head" class="col-md-8 nav-div d-none d-md-block " >                
+                        <ul>
+                            <li><a class="js-scroll-trigger" href="index.html">Home</a></li>
+                            <li class="yc"><a class="js-scroll-trigger" href="#why-choose">Why Choos Us</a></li>
+                            <li><a class="js-scroll-trigger" href="#services">Services</a></li>                       
+                            <li><a class="js-scroll-trigger" href="#contact_us">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!--###################### Slider Starts Here ############################-->
+    <div id="home" class="banner-container no-padding">
+        <div class="container">
+            <div class="row mx-auto">
+
+            </div>
+            <div class="slider-det">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <span></span>
+                            <h2>YOUR SECURITY IS OUR HIGHEST PRIORITY</h2>
+                            <p></p>
+                        </div>
+                        <div class="carousel-item">
+                            <span></span>
+                            <h2>“Our mission is your protection not only in Home but also in business places with our security monitors and Systems certified by the highest standards.”</h2>
+                            <p></p>
+                        </div>
+                        <div class="carousel-item">
+                            <span></span>
+                            <h2>"Your camera is the best critic there is. Critics never see as much as the camera does. It is more perceptive than the human eye."</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--###################### Services Starts Here ############################-->
+    <div class="services-container container-fluid" id="services">
+        <div class="container sess-in-cont">
+            <div class="session-title row">
+                <h2><u> Our Services</u></h2>
+                <p>We are one among the best company in UAE, who can provide all kinds of CCTV Installation, Security Systems, Cabling, Networking, Desktop & Laptop (Sales & Service).</p>
+            </div>
+            <div class="sess-row row">
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/s1.jpg" alt="">
+                            <figcaption>
+                                A CCTV camera is utilized to render a complete view of the place where the camera is installed.
+                            </figcaption>
+                        </figure>
+                        <h6>CCTV Installation</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/s2.jpg" alt="">
+                            <figcaption>
+                                A time and attendance system provides many benefits to organizations. It enables an employer to have full control of all employees working hours.
+                            </figcaption>
+                        </figure>
+                        <h6>Time Attendance System</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/s3.jpg" alt="">
+                            <figcaption>
+                                CCTV surveillance cameras can be deployed on a business' premises, but only for legitimate, justifiable purposes. Certain rights, such as the right to access footage in which they appear, are granted by law to all employees.
+                            </figcaption>
+                        </figure>
+                        <h6>Home & Office Security</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/SMATV.jpg" alt="">
+                            <figcaption>
+                                SMATV is a system which uses multiple satellites to create a single integrated cable signal for distribution; it is commonly used for buildings which have a network of televisions, like flats, villas, hotels and hospitals.
+                            </figcaption>
+                        </figure>
+                        <h6>SMATV System Installation</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/desktop&laptop_service.jpeg" alt="">
+                            <figcaption>
+                                Desktop & Laptop servicing refers to doing repairs and maintenance on the physical components of a computer and its peripherals, including fans, hard drives, keyboards and printers.
+                            </figcaption>
+                        </figure>
+                        <h6>Desktop & Laptop Sales / Service</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-det">
+                        <figure class="imghvr-fade">
+                            <img src="assets/images/services/cabling&network.jpg" alt="">
+                            <figcaption>
+                                Cable is the medium through which information usually moves from one network device to another.
+                                A network administrator typically manages an organization's network and is responsible for: installing, monitoring, troubleshooting, and upgrading network infrastructure, including both hardware and software components. monitoring network activity.
+                            </figcaption>
+                        </figure>
+                        <h6>Cabling & Network Administration</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--###################### About Company Starts Here ############################-->
+    <section class="with-medical" id="why-choose">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <img src="assets/images/about.jpg" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 txtr">
+                    <u><h4>Why choose<br>
+                        <span>Bright Safe Computers</span></u>
+                    </h4>
+                    <p>We have the expertise and experience of installing different types of CCTV cameras. We can help you to choose the right camera.</p>
+                    <p>Apart from that, we will make the installation hassle-free. Our team is highly skilled and can take care of all your security needs. We have hired the best skills of our industry to make the installation seamless. Our team members understand different types of CCTV systems. They will install CCTV cameras fast without causing any inconvenience.</p>
+                    <p>We know which products are more effective and which ones need a bit of maintenance. Therefore, you can rely on us to find the most suitable one based on your budget and needs. Our experience helps us to create lasting and advanced solutions for our customers.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--###################### Key Features Starts Here ##########################-->
+    <div class="key-features container-fluid">
+        <div class="container">
+            <div class="key_features_list">
+                <u><h2>Key Features</h2></u>
+                <ul class="list-group list-group-flush">
+                    <h5><li class="list-group-items list-group-item-primary">Skilled & Experienced Team</li>
+                    <li class="list-group-items list-group-item-secondary">Seamless Process</li>
+                    <li class="list-group-items list-group-item-success">Quality Service</li>
+                    <li class="list-group-items list-group-item-danger">Enhanced Customer Satisfaction</li>
+                    <li class="list-group-items list-group-item-warning">Fast Solutions</li>
+                    <li class="list-group-items list-group-item-info">Utmost Security</li></h5>
+                </ul>
+            </div>
+            <div class="key-row row">
+                <div class="col-md-3">
+                    <div class="key-single">
+                        <i class="fas fa-fingerprint"></i>
+                        <h6>High Security</h6>
+                        <p>We provide a range of biometric attendance systems for additional security, authorized access control and easy attendance management to corporations across the world.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="key-single">
+                        <i class="fas fa-user-lock"></i>
+                        <h6>Full Device Protection</h6>
+                        <p>Access control is the selective restriction of access to a place or other resources. After adding access control devices to the Mobile Client, you can remotely control the doors, and configure duration in which the doors remain open. You can also filter and view access control device's logs, which provide the information of access events and related alarms, such as access controller tampering alarm.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="key-single">
+                        <i class="fas fa-video"></i>
+                        <h6>Remote Monitoring</h6>
+                        <p>With the Mobile Client, you can remotely view live videos of the added encoding devices (e.g., cameras, NVRs,and DVRs) and play back their video footage. If cloud storage is activated on the video devices, you can browse, search, play back, and download the video footage on cloud.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="key-single">
+                        <i class="far fa-folder-open"></i>
+                        <h6>Full Backup of Information</h6>
+                        <p>Most security camera footage is stored for 30 to 90 days. This is true for hotels, retail stores, supermarkets, and even construction companies. Banks keep security camera footage for up to six months to comply with industry regulatory requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--###################### Contact Starts Here ############################-->
+    <div class="container" id="contact_us">
+        <h2 style="text-align: center"><u> Contact US </u></h2>
+        <div style="margin: 20px" class="row no-margin">        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29050.32509165172!2d54.353850682724094!3d24.47538479115164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e665d7879ac85%3A0xedc1eb690a190d3f!2sBright%20Safe%20Computers!5e0!3m2!1sen!2sae!4v1647183924853!5m2!1sen!2sae" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    
+
+    <!--###################### Footer Starts Here ############################-->
+
+<footer>
+   <div class="foot-det">
+       
+   
+    <div class="container foot-cont">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="foot-about">
+                    <h4>Bright Safe Computers</h4>
+                    <p>The prefect security services with affordable prices...</p>
+                    <ul>
+                            <li><a><i class="fab fa-github"></i></a></li>
+                            <li><a><i class="fab fa-linkedin-in"></i></a></li>
+                            <li> <a><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li> <a><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-md-4 menu-foot">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#why-choose">About Us</a></li>
+                    <li><a href="tel:0562729468 / 0555844775">Pricing</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Projects</a></li>            
+                    <li><a href="tel:0562729468 / 0555844775">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 cont-foot">
+                <h4>Contacts</h4>
+                <p>2nd Floor, 24, Royal Residential Building, Hamdan Bin Mohammed Street، Backside of Adidas - Abu Dhabi</p>
+                <a href="mailto:brightsafe@outlook.com"> brightsafe@outlook.com</a><br><br>
+                <h6><a href="tel:0562729468 / 0555844775">0562729468 / 0555844775</a></h6>
+
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="container">
+            <p>2022 © All Rights Reserved | Designed and Developed for <b> Bright Safe Computers </b> from <a href="https://www.smarteyeapps.com/" target="_blank">Smarteyeapps.com</a> by <a href="https://praveen-772.github.io/myself" target="_blank">Praveen</a></p>
+            <a href="/"><button class="back_to_top btn btn-secondary">Back to top</button></a>
+        </div>
+
+    </div>
+    </div>
+</footer>
+   
+
+
+
+</body>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/scroll-nav/js/jquery.easing.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</html>
