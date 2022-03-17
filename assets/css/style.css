@@ -657,3 +657,18 @@ footer{
 .list-group-items{
   margin-bottom: 10px;
 }
+
+button:hover{
+  border: black solid 5px;
+}
+
+a:hover{
+  border: black solid 2px;
+  cursor: pointer;
+  color: darkgreen;
+}
+
+.head:hover{
+  color: red;
+  cursor: pointer;
+}
